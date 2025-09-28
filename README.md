@@ -187,12 +187,13 @@ Select Services and Choose EC2 Instance.
 - The new terminal window will get Open.
 
 3. Run the following commands:
-   a. sudo apt-get update
-   b. sudo apt-get install -y docker.io # install docker
-   c. sudo systemctl start docker # start docker
-   d. sudo systemctl enable docker # enable docker for auto start with ec2 instance
-   e. sudo usermod -aG docker $USER # used to grant permission to pull image from external server
-   f. exit # to restart the terminal
+
+- sudo apt-get update
+- sudo apt-get install -y docker.io # install docker
+- sudo systemctl start docker # start docker
+- sudo systemctl enable docker # enable docker for auto start with ec2 instance
+- sudo usermod -aG docker $USER # used to grant permission to pull image from external server
+- exit # to restart the terminal
 
 4. Restart a new connection to EC2 instance
 5. Run the following commands
